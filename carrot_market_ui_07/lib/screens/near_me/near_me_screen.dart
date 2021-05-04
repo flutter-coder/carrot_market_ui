@@ -1,10 +1,10 @@
-import 'package:carrot_market_ui/models/recommend_store.dart';
-import 'package:carrot_market_ui/screens/components/appbar_preferred_size.dart';
-import 'package:carrot_market_ui/screens/near_me/components/bottom_title_icon.dart';
-import 'package:carrot_market_ui/screens/near_me/components/round_border_text.dart';
-import 'package:carrot_market_ui/screens/near_me/components/search_text_field.dart';
-import 'package:carrot_market_ui/screens/near_me/components/store_item.dart';
-import 'package:carrot_market_ui/theme.dart';
+import '../../models/recommend_store.dart';
+import '../components/appbar_preferred_size.dart';
+import 'components/bottom_title_icon.dart';
+import 'components/round_border_text.dart';
+import 'components/search_text_field.dart';
+import 'components/store_item.dart';
+import '../../theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

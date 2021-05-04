@@ -1,9 +1,10 @@
-import 'package:carrot_market_ui/models/neighborhood_life.dart';
-import 'package:carrot_market_ui/screens/components/image_container.dart';
-import 'package:carrot_market_ui/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import '../../../models/neighborhood_life.dart';
+import '../../../theme.dart';
+import '../../components/image_container.dart';
 
 class LifeBody extends StatelessWidget {
   final NeighborhoodLife neighborhoodLife;
@@ -15,7 +16,6 @@ class LifeBody extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
-        // 1
         border: Border(
           bottom: BorderSide(width: 0.5, color: Color(0xFFD4D5DD)),
         ),
@@ -26,7 +26,6 @@ class LifeBody extends StatelessWidget {
           _buildWriter(),
           _buildWriting(),
           _buildImage(),
-          // 2
           Divider(
             height: 1,
             thickness: 1,

@@ -1,7 +1,8 @@
-import 'package:carrot_market_ui/models/chat_message.dart';
-import 'package:carrot_market_ui/screens/components/image_container.dart';
-import 'package:carrot_market_ui/theme.dart';
 import 'package:flutter/material.dart';
+
+import '../../../models/chat_message.dart';
+import '../../../theme.dart';
+import '../../components/image_container.dart';
 
 class ChatContainer extends StatelessWidget {
   const ChatContainer({

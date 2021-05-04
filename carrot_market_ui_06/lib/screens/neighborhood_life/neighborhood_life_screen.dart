@@ -1,9 +1,10 @@
-import 'package:carrot_market_ui/models/neighborhood_life.dart';
-import 'package:carrot_market_ui/screens/components/appbar_preferred_size.dart';
-import 'package:carrot_market_ui/screens/neighborhood_life/components/life_body.dart';
-import 'package:carrot_market_ui/screens/neighborhood_life/components/life_header.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../models/neighborhood_life.dart';
+import '../components/appbar_preferred_size.dart';
+import 'components/life_body.dart';
+import 'components/life_header.dart';
 
 class NeighborhoodLifeScreen extends StatelessWidget {
   @override

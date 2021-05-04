@@ -19,7 +19,6 @@ class _MainScreensState extends State<MainScreens> {
     return Scaffold(
       body: IndexedStack(
         index: _selectedIndex,
-        // 1
         children: [
           HomeScreen(),
           NeighborhoodLifeScreen(),
@@ -29,18 +28,14 @@ class _MainScreensState extends State<MainScreens> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        // 2
         backgroundColor: Colors.white,
-        // 3
         type: BottomNavigationBarType.fixed,
-        // 4
         currentIndex: _selectedIndex,
         onTap: (index) {
           setState(() {
             _selectedIndex = index;
           });
         },
-        // 5
         items: [
           const BottomNavigationBarItem(
               label: '홈', icon: Icon(CupertinoIcons.home)),

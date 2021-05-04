@@ -1,6 +1,7 @@
-import 'package:carrot_market_ui/models/recommend_store.dart';
-import 'package:carrot_market_ui/theme.dart';
 import 'package:flutter/material.dart';
+
+import '../../../models/recommend_store.dart';
+import '../../../theme.dart';
 
 class StoreItem extends StatelessWidget {
   final RecommendStore recommendStore;

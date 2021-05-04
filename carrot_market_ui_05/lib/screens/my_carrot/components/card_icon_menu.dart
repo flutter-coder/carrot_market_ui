@@ -1,6 +1,7 @@
-import 'package:carrot_market_ui/models/icon_menu.dart';
-import 'package:carrot_market_ui/theme.dart';
 import 'package:flutter/material.dart';
+
+import '../../../models/icon_menu.dart';
+import '../../../theme.dart';
 
 class CardIconMenu extends StatelessWidget {
   final List<IconMenu> iconMenuList;

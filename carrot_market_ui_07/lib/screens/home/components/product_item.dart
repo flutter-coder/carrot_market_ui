@@ -1,6 +1,7 @@
-import 'package:carrot_market_ui/models/product.dart';
-import 'package:carrot_market_ui/screens/home/components/product_detail.dart';
 import 'package:flutter/material.dart';
+
+import '../../../models/product.dart';
+import 'product_detail.dart';
 
 class ProductItem extends StatelessWidget {
   final Product product;

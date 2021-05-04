@@ -1,9 +1,9 @@
-import 'package:carrot_market_ui/models/icon_menu.dart';
-import 'package:carrot_market_ui/screens/my_carrot/components/my_carrot_header.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../../models/icon_menu.dart';
 import 'components/card_icon_menu.dart';
+import 'components/my_carrot_header.dart';
 
 class MyCarrotScreen extends StatelessWidget {
   @override

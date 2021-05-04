@@ -1,7 +1,8 @@
-import 'package:carrot_market_ui/models/neighborhood_life.dart';
-import 'package:carrot_market_ui/screens/components/image_container.dart';
-import 'package:carrot_market_ui/theme.dart';
 import 'package:flutter/material.dart';
+
+import '../../../models/neighborhood_life.dart';
+import '../../../theme.dart';
+import '../../components/image_container.dart';
 
 class LifeHeader extends StatelessWidget {
   @override
